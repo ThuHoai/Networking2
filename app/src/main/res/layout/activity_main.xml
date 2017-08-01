@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.hoaiktt.MainActivity">
+
+    <Button
+        android:id="@+id/btnConnectQOTD"
+        android:text="@string/btn_title_connect"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height" />
+
+    <TextView
+        android:id="@+id/tvResultDislay"
+        android:textSize="@dimen/tv_size_result"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
